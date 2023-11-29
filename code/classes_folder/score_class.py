@@ -8,14 +8,6 @@ class Score(Time):
         self.current_score = 0
         self.best_score = self.get_best_score()
 
-    # @property
-    # def current_score(self):
-    #     return self.__current_score
-    
-    # @current_score.setter
-    # def current_score(self, val: int):
-    #     self.__current_score += val
-
     def get_best_score(self) -> list:
         with open("utils/best_score.txt") as score_file:
             best_score = score_file.readline()
