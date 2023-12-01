@@ -1,6 +1,6 @@
 import pygame, sys
 from global_variables import *
-from .laser_class import Laser
+from .laser import Laser
 from classes_folder.game_over import GameOver
 
 

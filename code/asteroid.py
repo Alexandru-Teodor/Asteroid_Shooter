@@ -2,10 +2,10 @@ import pygame, sys
 from random import randint
 
 from global_variables import *
-from classes_folder.ship_class import Ship
-from classes_folder.meteor_class import Meteor
-from classes_folder.time_class import Time
-from classes_folder.score_class import Score
+from classes_folder.ship import Ship
+from classes_folder.meteor import Meteor
+from classes_folder.time import Time
+from classes_folder.score import Score
 from classes_folder.game_over import GameOver
 
 
@@ -86,4 +86,3 @@ while True:
         if game_over.last_update:
             pygame.display.update()
             game_over.last_update = False
-

@@ -1,6 +1,6 @@
 import pygame
 from global_variables import WINDOW_WIDTH, WINDOW_HEIGHT, display_surface
-from classes_folder.score_class import Score
+from classes_folder.score import Score
 
 class GameOver:
     def __init__(self) -> None:

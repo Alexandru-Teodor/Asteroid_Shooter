@@ -1,6 +1,6 @@
 import pygame
 from global_variables import WINDOW_WIDTH, WINDOW_HEIGHT, display_surface
-from .time_class import Time
+from .time import Time
 
 class Score(Time):
     def __init__(self) -> None:

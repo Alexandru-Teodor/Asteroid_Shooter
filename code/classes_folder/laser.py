@@ -1,6 +1,6 @@
 import pygame
 from global_variables import meteor_group, explosion_sound
-from classes_folder.score_class import Score
+from classes_folder.score import Score
 
 
 class Laser(pygame.sprite.Sprite):

@@ -1,7 +1,6 @@
 import pygame
 from global_variables import WINDOW_HEIGHT
 from random import randint, uniform
-# from classes_folder.score_class import Score
 
 
 class Meteor(pygame.sprite.Sprite):
